@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Cart ShopingOnline purchases</title>
+		<link rel="stylesheet" href="css/main.css" />
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+		<script data-cfasync="false" type="text/javascript" src="js/main.js"></script>
+	</head>
+	<body >
+		<div class="container">
+			
+			<div class="row center">
+				<h2>Shoping Online </h2>
+				
+				<input type="button" id="resetSession" value="Clear Session">
+			</div>
+			<div class="row">
+				<div class="col s4">
+					<span><b>BALANCE: </b> <span id="balance">0</span>$</span>
+				</div>
+				<a href="cart.html" class="col s4 right">
+					<i class="material-icons">add_shopping_cart</i><span id="itemCar">0</span>
+				</a>
+			</div>
+			<div class="row">
+				<table>
+					<thead>
+						<tr>
+							<th></th>
+							<th data-field="name">Item Name</th>
+							<th data-field="price">Item Price</th>
+							<th></th>
+						</tr>
+					</thead>
+					
+					<tbody id="product">
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div id="resultad">
+		
+		</div>
+	
+	</body>
+</html>
